@@ -6,9 +6,9 @@ const CONFIG = {
   name: "MY FAVORITE PERSON",
 
   finalMessage:
-    "اخر حاجه كل سنه وانت طيب ياحبيبي ويارب دايما تفضل جنبي وف حياتي" +
-    "ومنبعدش عن بعض ابدا عشان انت حاجه كبيره اوي في حياتي وبقيت اولويه بلنسبالي" +
-    "بتمني اننا نفضل مع بعض طول العمر ومنبعدش عن بعض ابدا عشان انت اغلي حاجه عندي" +
+    "اخر حاجه كل سنه وانت طيب ياحبيبي ويارب دايما تفضل جنبي وف حياتي " +
+    "ومنبعدش عن بعض ابدا عشان انت حاجه كبيره اوي في حياتي وبقيت اولويه بلنسبالي " +
+    "بتمني اننا نفضل مع بعض طول العمر ومنبعدش عن بعض ابدا عشان انت اغلي حاجه عندي " +
     "بحبك اوي ياحبيبي ربنا يخليك ليا وميحرمنيش منك ابدا وتفضل معايا طول العمر ونحتفل بعيد ميلادك كل سنه واحنا سوا ان شاء الله😘❣️❣️❣️❣️❣️" ,
 
   pages: [
@@ -19,7 +19,7 @@ const CONFIG = {
       quote: "اقلب الصفحه ياحبيبي",
       photo: "photo3.jpg",
       caption: "My favorite kind of happiness",
-      date: "24/6/2024",
+      date: "",
       note: "SOME PEOPLE FEEL LIKE HOME"
     },
     {
@@ -29,7 +29,7 @@ const CONFIG = {
       quote: "اقلب صفحه كمان",
       photo: "photo2.jpg",
       caption: "Best Moments in My Life",
-      date: "19/3/2025",
+      date: "4/12/2025",
       note: "YOUR FEELINGS MATTER TOO"
     },
     {
@@ -39,27 +39,27 @@ const CONFIG = {
       quote: "كمان صفحه",
       photo: "photo4.jpg",
       caption: "A little reminder of us",
-      date: "2/2/2026",
+      date: "",
       note: "LOVE ALSO MEANS LEARNING"
     },
-        {
+    {
       chapter: "04 — WHAT I SHOULD HAVE SAID",
       title: "وجودك جنبي <br> <i>بيقويني</i>",
       text: "كنا صفر طاقه بس وجودك جنبي <br> احلي حاجه في الدنيا",
       quote: "زهقتك عارفه اقلب اخر مره",
       photo: "photo1.jpg",
       caption: "A little reminder of us",
-      date: "2/2/2026",
+      date: "",
       note: "LOVE ALSO MEANS LEARNING"
     },
-        {
+    {
       chapter: "05 — WHAT I SHOULD HAVE SAID",
       title: "<i>ربنا يخليك ليا يا احلي حاجه حصلتلي</i>",
       text: "كل سنه ونت سندي وضهري اللي مقدرش اعيش منغيره",
       quote: "دوس Finish من تحت ياحبيبي",
       photo: "photo5.jpg",
       caption: "A little reminder of us",
-      date: "2/2/2026",
+      date: "",
       note: "LOVE ALSO MEANS LEARNING"
     },
   ]
