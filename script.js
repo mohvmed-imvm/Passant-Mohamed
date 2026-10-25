@@ -17,7 +17,7 @@ const CONFIG = {
       title: "كل سنه وانت طيب<br> <i>ينور عيني</i>",
       text: "محمد حبيبي كل سنه ونت طيب ونت فعلا طيب وحنين عليا وكل عيد ميلاد ونت عيدي هو اول عيد ميلاد بس باذن الله مش الاخير سوا سوا زي ماوعدتني❤️وباذن الله السنه الجايه نبقا بنحتفل بيه في بيتنا الدافي ووسط كل اللي بيحبونا وبنحبهم شكرا انك في حياتي ومش محتاجه اقولك قد اي انا بحبك حتي لو مش بقدر اقول ده بس صدقني وجودك اكبر نعمه من ربنا عليا بموت فيك يحمودي",
       quote: "اقلب الصفحه ياحبيبي",
-      photo: "Photo3.jpg",
+      photo: "photo3.jpg",
       caption: "My favorite kind of happiness",
       date: "24/6/2024",
       note: "SOME PEOPLE FEEL LIKE HOME"
@@ -27,7 +27,7 @@ const CONFIG = {
       title: "احلي يوم في<br> <i>عمري</i>",
       text: "يوم ماكلمت بابا مقدرش انسهالك يعيوني وكأن كل ايامي معاك عيد",
       quote: "اقلب صفحه كمان",
-      photo: "Photo2.jpg",
+      photo: "photo2.jpg",
       caption: "Best Moments in My Life",
       date: "19/3/2025",
       note: "YOUR FEELINGS MATTER TOO"
@@ -37,7 +37,7 @@ const CONFIG = {
       title: "بنزق الدنيا عشان تمشي وتعدي<br> <i>واحنا سوا</i>",
       text: "بنقوي بعض حتي في اوحش ايامنا كل سنه ونت احلي حاجه حصلت وبتحصل",
       quote: "كمان صفحه",
-      photo: "Photo4.jpg",
+      photo: "photo4.jpg",
       caption: "A little reminder of us",
       date: "2/2/2026",
       note: "LOVE ALSO MEANS LEARNING"
@@ -47,7 +47,7 @@ const CONFIG = {
       title: "وجودك جنبي <br> <i>بيقويني</i>",
       text: "كنا صفر طاقه بس وجودك جنبي <br> احلي حاجه في الدنيا",
       quote: "زهقتك عارفه اقلب اخر مره",
-      photo: "Photo1.jpg",
+      photo: "photo1.jpg",
       caption: "A little reminder of us",
       date: "2/2/2026",
       note: "LOVE ALSO MEANS LEARNING"
@@ -57,7 +57,7 @@ const CONFIG = {
       title: "<i>ربنا يخليك ليا يا احلي حاجه حصلتلي</i>",
       text: "كل سنه ونت سندي وضهري اللي مقدرش اعيش منغيره",
       quote: "دوس Finish من تحت ياحبيبي",
-      photo: "Photo5.jpg",
+      photo: "photo5.jpg",
       caption: "A little reminder of us",
       date: "2/2/2026",
       note: "LOVE ALSO MEANS LEARNING"
