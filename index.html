@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#651d32">
+  <meta name="google" content="notranslate">
+
+  <title>Passant♡Mohamed</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=El+Messiri:wght@400;500;700&family=Lateef&family=Reem+Kufi:wght@400;700&family=Gulzar&family=Mirza:wght@400;700&family=Rakkas&family=Noto+Naskh+Arabic:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="particles-back" id="particlesBack" aria-hidden="true"></div>
+  <div class="film-grain"></div>
+
+  <header class="topbar">
+    <a class="brand" href="https://mohvmed-imvm.github.io/4U-celebration/">
+      <span class="brand-mark">4U</span>
+      <span class="brand-caption">CELEBRATIONS</span>
+    </a>
+    <span class="top-label">A STORY WRITTEN WITH LOVE</span>
+  </header>
+
+  <main>
+    <!-- COVER -->
+    <section class="cover-screen" id="coverScreen">
+      <div class="cover-intro">
+        <span class="eyebrow">A LITTLE BOOK FOR SOMEONE SPECIAL</span>
+        <p class="intro-note">For the moments words weren't enough.</p>
+
+        <button class="cover" id="openBook" aria-label="Open the love book">
+          <span class="cover-spine"></span>
+
+          <span class="cover-inner">
+            <span class="cover-top">A LETTER FROM MY HEART</span>
+            <span class="cover-heart">♡</span>
+
+            <span class="cover-title">A Letter<br><i>to My Love</i></span>
+
+            <span class="cover-line"></span>
+            <span class="cover-subtitle">IF I COULD SAY IT ALL AGAIN</span>
+            <span class="cover-name" id="coverName">TO MY FAVORITE PERSON</span>
+
+            <span class="cover-bottom">SOME STORIES ARE WORTH FIGHTING FOR</span>
+          </span>
+
+          <span class="cover-hint">TAP TO OPEN ♡</span>
+        </button>
+
+        <p class="cover-footnote">Every page comes from the heart.</p>
+      </div>
+    </section>
+
+    <!-- BOOK -->
+    <section class="book-screen hidden" id="bookScreen">
+      <div class="book-heading">
+        <span class="eyebrow">A FEW WORDS FROM MY HEART</span>
+        <h1>ممكن نقلب الصفحات <i>سوا؟</i></h1>
+        <p>Some feelings deserve more than a simple message.</p>
+      </div>
+
+      <div class="book-stage" id="bookStage">
+        <div class="floating-glow"></div>
+        <div class="book-shadow"></div>
+
+        <div class="book" id="book">
+          <div class="left-page page">
+            <div class="page-content" id="leftContent"></div>
+            <span class="page-number" id="leftNumber">03</span>
+          </div>
+
+          <div class="right-page page">
+            <div class="page-content" id="rightContent"></div>
+            <span class="page-number" id="rightNumber">02</span>
+          </div>
+
+          <div class="turn-sheet" id="turnSheet" aria-hidden="true">
+            <div class="sheet-face sheet-front" id="sheetFront"></div>
+            <div class="sheet-face sheet-back" id="sheetBack"></div>
+          </div>
+
+          <div class="book-center"></div>
+        </div>
+
+        <p class="book-side-note">A STORY ONLY WE UNDERSTAND ♡</p>
+      </div>
+
+      <div class="book-controls">
+        <button class="nav-button" id="prevButton" disabled>
+          <span>←</span> Previous
+        </button>
+
+        <div class="progress-wrap">
+          <span id="progressText">01 / 06</span>
+          <div class="progress-track">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+        </div>
+
+        <button class="nav-button next-button" id="nextButton">
+          Turn the page <span>→</span>
+        </button>
+      </div>
+
+      <p class="tap-hint">TAP ANY PAGE TO TURN IT · TAKE YOUR TIME</p>
+    </section>
+
+    <!-- ENDING -->
+    <section class="final-screen hidden" id="finalScreen">
+      <div class="final-glow"></div>
+
+      <div class="final-content">
+        <span class="eyebrow">ONE LAST THING I NEED YOU TO KNOW</span>
+
+        <div class="final-heart" aria-hidden="true">
+          <span>♥</span>
+          <i class="heart-spark spark-a">✧</i>
+          <i class="heart-spark spark-b">✦</i>
+          <i class="heart-spark spark-c">♡</i>
+        </div>
+
+        <p class="final-small">If my heart could speak...</p>
+        <h2>It would always<br><i>.choose you</i></h2>
+
+        <span class="final-divider"></span>
+
+        <p class="final-message" id="finalMessage">
+اخر حاجه كل سنه وانت طيب ياحبيبي ويارب دايما تفضل جنبي وف حياتي<br>
+ومنبعدش عن بعض ابدا عشان انت حاجه كبيره اوي في حياتي وبقيت اولويه بلنسبالي<br>
+بتمني اننا نفضل مع بعض طول العمر ومنبعدش عن بعض ابدا عشان انت اغلي حاجه عندي<br>
+بحبك اوي ياحبيبي ربنا يخليك ليا وميحرمنيش منك ابدا وتفضل معايا طول العمر ونحتفل بعيد ميلادك كل سنه واحنا سوا ان شاء الله😘❣️❣️❣️❣️❣️
+        </p>
+
+        <p class="final-signature">♡Love u</p>
+
+        <button class="restart-button" id="restartButton">
+          ↺ &nbsp; Read our story again
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>MADE BY
+      <a href="https://mohvmed-imvm.github.io/4U-celebration/">4U</a>
+    </span>
+  </footer>
+  <audio id="bookMusic" src="song.mp3" preload="auto"></audio>
+</body>
+</html>
